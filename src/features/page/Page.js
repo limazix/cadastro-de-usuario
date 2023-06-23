@@ -6,7 +6,9 @@ const Page = () => {
     return (
         <>
             <Header />
-            <Outlet />
+            <div style={{ padding: "15px" }}>
+                <Outlet />
+            </div>
         </>
     )
 };

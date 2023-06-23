@@ -13,7 +13,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 import { Link } from "react-router-dom";
 
-const pages = ['List', 'Create'];
+const pages = ['Create'];
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
