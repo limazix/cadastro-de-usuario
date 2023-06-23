@@ -10,7 +10,11 @@ import { Page, List } from './features';
 
 const routes = createBrowserRouter([{
   path: '/',
-  element: <h1>HelloRouter</h1>
+  element: <Page />,
+  children: [{
+    path: '/',
+    element: <List />
+  }]
 }]);
 
 function App() {
